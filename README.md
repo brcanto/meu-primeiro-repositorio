@@ -26,13 +26,13 @@ No Github clique no icone redondo no canto superior direito, depois em **Setting
 
 #eval $(ssh-agent -s)
 
-#ssh-add <caminho_e_nome_da_chave_privada>
+#ssh-add \<caminho_e_nome_da_chave_privada\>
 
 OBS: pode deixar a senha em branco (apenas para repositorio publico)
 
 **Para testar, abra um repositorio no Github e no botão Code (em verde) copie o codigo para acesso ssh. No Git Bash da maquina local, use o seguinte comando para clonar o repositorio remoto para o local:**
 
-git clone <codigo_ssh>
+git clone \<codigo_ssh>
 
 **Para inicializar um repositorio localmente, entre na pasta onde sera o repositório e digite o comando:**
 
@@ -40,9 +40,9 @@ git clone <codigo_ssh>
 
 **Configurando o repositorio:**
 
-#git config --global user. email "rodrigocanto@gmail.com"
+#git config --global user. email \<rodrigocanto@gmail.com\>
 
-#git config --global user.name brcanto
+#git config --global user.name \<brcanto\>
 
 **Para visualizar os parâmetros de configuração:**
 
@@ -50,9 +50,9 @@ git clone <codigo_ssh>
 
 **Alterando os parametros de configurações (unset):**
 
-#git config --global --unset user. email "[rodrigocanto@gmail.com](mailto:rodrigocanto@gmail.com)"
+#git config --global --unset user. email \<rodrigocanto@gmail.com\>
 
-#git config --global --unset user.name brcanto
+#git config --global --unset user.name \<brcanto\>
 
 OBS: onde rcanto é o mesmo usuário no Github.
 
@@ -66,18 +66,22 @@ A fim de facilitar a edição do arquivo **index.md**, é interessante utilizar 
 
 #git commit -m "mensagem que identifica o commit"
 
+**Para empurrar as alterações dos repositorios locais para os repositorios remoto:**
+
+#git push origin master
+  ou
+#git push origin main
+
 **Para consultar o estado dos arquivos do repositorio localmente:**
 
 #git status
 
 **Para incluir um repositorio remoto no github copie o Code https do repositorio e no Git bash execute o comando:**
 
-#git remote add origin <code https>
+#git remote add origin \<code https\>
 
 **Para visualizar os repositorios remotos configurados:**
 
 #git remote -v
 
-**Para empurrar as alterações dos repositorios locais para os repositorios remoto:**
 
-#git push origin master
