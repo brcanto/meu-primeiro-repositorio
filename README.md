@@ -42,7 +42,7 @@ git clone <codigo_ssh>
 
 #git config --global user. email "rodrigocanto@gmail.com"
 
-#git config --global user.name rcanto
+#git config --global user.name brcanto
 
 **Para visualizar os parâmetros de configuração:**
 
@@ -52,7 +52,7 @@ git clone <codigo_ssh>
 
 #git config --global --unset user. email "[rodrigocanto@gmail.com](mailto:rodrigocanto@gmail.com)"
 
-#git config --global --unset user.name rcanto
+#git config --global --unset user.name brcanto
 
 OBS: onde rcanto é o mesmo usuário no Github.
 
