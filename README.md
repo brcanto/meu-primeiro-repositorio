@@ -69,7 +69,9 @@ A fim de facilitar a edição do arquivo **index.md**, é interessante utilizar 
 **Para empurrar as alterações dos repositorios locais para os repositorios remoto:**
 
 #git push origin master
+
 #ou
+
 #git push origin main
 
 **Para consultar o estado dos arquivos do repositorio localmente:**
