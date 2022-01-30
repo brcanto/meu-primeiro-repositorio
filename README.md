@@ -70,7 +70,7 @@ A fim de facilitar a edição do arquivo **index.md**, é interessante utilizar 
 
 #git push origin master
 
-#ou
+ou
 
 #git push origin main
 
